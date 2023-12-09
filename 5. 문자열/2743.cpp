@@ -5,7 +5,7 @@
 int main(){
     char s[101];
     int k = 0;
-    scanf("%s", &l);
+    scanf("%s", &s);
     for(int i = 0; s[i] != '\0'; i++) k++;
     printf("%d", k);
     return 0;
