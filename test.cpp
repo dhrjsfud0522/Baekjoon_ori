@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char l[5] = {'a', 'b', 'g', 'y', 'q'};
-    printf("%s", l);
+    int n = 0;
+    while(n < 1000000){
+        printf("a");
+        n++;
+    }
 }
