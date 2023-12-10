@@ -3,6 +3,9 @@
 #include <stdio.h>
 
 int main(){
-    char l[101] = {};
-    while
+    char l;
+    while(scanf("%c", &l) == 1){
+        printf("%c", l);
+    }
+    return 0;
 }
