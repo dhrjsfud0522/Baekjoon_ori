@@ -19,6 +19,6 @@ int main(){
             }
         }   
     }
-    
+    printf("%d\n%d %d", max, n + 1, m + 1);
     return 0;
 }
